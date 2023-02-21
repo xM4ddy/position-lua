@@ -40,7 +40,7 @@ end
 menu.toggle_loop(path, "Randomize Position", {"randwarp"}, "spoofs your position to a random place within a radius around your current position at the given interval", function ()
     pos = players.get_position(players.user())
 
-    if pos then4
+    if pos then
         random_pos();
         menu.trigger_commands("spoofedposition " .. tostring(rand_pos.x) .. ", " .. tostring(rand_pos.y) .. ", " .. tostring(rand_pos.z))
         util.yield(interval)
