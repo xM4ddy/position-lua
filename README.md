@@ -1,4 +1,4 @@
-# position-lua
+# position-lua Version: 0.01
 ## A small lua script to mess with some position stuff:
 
 Features:
