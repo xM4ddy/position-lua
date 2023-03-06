@@ -1,7 +1,4 @@
 # position-lua
-### Random Poorly Coded Lua Script
-
-
 
 ## Install Script (paste and run in command prompt):
 ```bat
